@@ -338,7 +338,7 @@ h3{
 }
 
 .btn-app img{
-   width: 150px; /* Set a fixed width for both buttons */
+   width: 150px; /* Set a fixed width for both button */
    height: auto; /* Height will adjust to maintain aspect ratio */
    margin-right: 10px;
    vertical-align: middle; /* Aligns buttons nicely if their heights differ */
