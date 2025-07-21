@@ -165,6 +165,10 @@ input[type=submit]{
    border-bottom: 2px solid #e67e22;
  }
 
+.nav-toggle {
+  display: none;
+}
+
  section{
    padding: 80px 0;
  }
