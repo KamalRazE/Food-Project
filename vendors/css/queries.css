@@ -132,9 +132,80 @@
     width: 100%;
     margin: 0 0 4% 0;
   }
+/*   .main-nav {
+    display: none;
+  } */
+  nav {
+    padding-right: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .nav-toggle {
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    z-index: 10000;
+  }
+
   .main-nav {
     display: none;
+    /* Hide menu by default */
+    flex-direction: column;
+    background-color: #111;
+    /* Dark background */
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0 0;
+    gap: 0;
+    z-index: 9999;
   }
+
+  .main-nav.open {
+    display: flex;
+  }
+
+  .main-nav.active {
+    display: flex;
+  }
+
+  .main-nav li {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #333;
+  }
+
+  .main-nav li:last-child {
+    border-bottom: none;
+  }
+
+  .main-nav li a {
+    font-size: 100%;
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+  }
+
+  .row {
+    position: relative;
+  }
+
+
+/*    */
   .app-screen {
     width: 80%;
     margin: 0 auto;
