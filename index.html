@@ -20,6 +20,16 @@
     <style>
 
     </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggleBtn = document.querySelector(".nav-toggle");
+            const mainNav = document.querySelector(".main-nav");
+
+            toggleBtn.addEventListener("click", function () {
+                mainNav.classList.toggle("active");
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -27,6 +37,9 @@
         <nav>
             <div class="row">
                 <img class="logo" src="resources/img/logo.jpg" alt="logo img">
+                <!-- Hamburger Toggle Button  -->
+                <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+                <!-- <button id="nav-toggle">&#9776;</button> -->
                 <ul class="main-nav">
                     <li><a href="#feature">Food Delivery</a></li>
                     <li><a href="#hiw">How it works</a></li>
