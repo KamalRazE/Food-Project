@@ -6,19 +6,24 @@
     width: 100%;
     padding: 0 2%;
   }
+
   .row {
     padding: 0 2%;
   }
+
   .plan-box {
     margin-left: 15px;
     margin-right: 15px;
   }
+
   section {
     padding: 60px 0;
   }
+
   .section-header h2 {
     font-size: 180%;
   }
+
   .section-features ion-icon {
     font-size: 360%;
   }
@@ -31,45 +36,56 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   body {
     font-size: 18px;
   }
+
   section {
     padding: 50px 0;
   }
+
   .steps-box {
     margin-top: 10px;
   }
+
   .steps-box:last-child {
     margin-top: 10px;
   }
+
   .works-step {
     margin-bottom: 40px;
   }
+
   .works-step:last-of-type {
     margin-bottom: 60px;
   }
+
   .app-screen {
     width: 50%;
   }
+
   /* .icon-big {
     width: 17px;
     margin-right: 5px; 
   }*/
-   .section-cities .col {
-        /* width: 298%; */
-        /* margin: 1%; */
-        width: 23%; 
-        /* float: left */
-    }
-    .section-cities .row::after {
+  .section-cities .col {
+    /* width: 298%; */
+    /* margin: 1%; */
+    width: 23%;
+    /* float: left */
+  }
+
+  .section-cities .row::after {
     content: "";
     display: table;
     clear: both;
-}
+  }
+
   .city-feature {
     font-size: 90%;
   }
+
   .plan-col {
     /* border: 1px solid #ccc; all sides */
     /* OR if you want only right border */
@@ -80,8 +96,8 @@
     flex: 1 1 100%;
     width: 100%;
   }
-  
-    /* .plan-box {
+
+  /* .plan-box {
         width: 100%;
         margin: 0 auto;
         margin: 1%;
@@ -90,18 +106,24 @@
   .plan-price {
     font-size: 250%;
   }
+
   .contact-form {
     width: 80%;
   }
+
   .section-header h2 {
     font-size: 160%;
   }
+
   .section-features ion-icon {
     font-size: 360%;
   }
-   .testimonial-col {
-    width: 48%; /* Two columns per row */
-    margin: 1%;  /* Optional spacing */
+
+  .testimonial-col {
+    width: 48%;
+    /* Two columns per row */
+    margin: 1%;
+    /* Optional spacing */
     float: left;
     box-sizing: border-box;
   }
@@ -120,21 +142,26 @@
   body {
     font-size: 16px;
   }
+
   section {
     padding: 40px 0;
   }
+
   .row,
   .hero-text-box {
     padding: 0 4%;
     flex-direction: column;
   }
+
   .col {
     width: 100%;
     margin: 0 0 4% 0;
   }
-/*   .main-nav {
-    display: none;
+
+  /* .main-nav {
+    display: none;  
   } */
+
   nav {
     padding-right: 0;
     position: fixed;
@@ -204,15 +231,16 @@
     position: relative;
   }
 
-
-/*    */
+  /*  */
   .app-screen {
     width: 80%;
     margin: 0 auto;
   }
+
   .steps-box:first-child {
     text-align: center;
   }
+
   .work-step div {
     height: 40px;
     width: 40px;
@@ -220,12 +248,15 @@
     padding: 4px;
     font-size: 120%;
   }
+
   .work-step {
     margin-bottom: 20px;
   }
+
   .work-step:last-of-type {
     margin-bottom: 20px;
   }
+
   /* .plan-box {
     width: 95%;
     margin: 0 auto 20px auto;
@@ -233,19 +264,24 @@
   .section-header h2 {
     font-size: 150%;
   }
+
   .section-features ion-icon {
     font-size: 360%;
     /* margin-bottom: 10px; */
   }
-   .section-cities .col {
-        width: 78%;
-        margin: 1%;
-        /* width: 23%;  */
-        float: left
-    }
-    .btn-app:nth-of-type(1) img {
-    margin-left: 19px; /* or translateX(10px); */
+
+  .section-cities .col {
+    width: 78%;
+    margin: 1%;
+    /* width: 23%;  */
+    float: left
   }
+
+  .btn-app:nth-of-type(1) img {
+    margin-left: 19px;
+    /* or translateX(10px); */
+  }
+
   .plan-col {
     /* border: 1px solid #ccc; all sides */
     /* OR if you want only right border */
@@ -261,61 +297,95 @@
 
 /* small phones 0-480 px */
 @media only screen and (max-width: 480px) {
+  .logo{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 380px;
+ }
+
+ .hero-text-box{
+    margin-right: 40px;
+ }
+ .btn{
+  padding-bottom: 30px;
+ }
+  
+ .hero-text-box .btn {
+    /* display: block; */
+    /* width: 100%; */
+    margin-bottom: 10px; /* Add vertical spacing between buttons */
+  }
+
+  .hero-text-box .btn:last-child {
+    margin-bottom: 0; /* Remove margin after the last button */
+  }
+  
   section {
     padding: 25px 0;
   }
+
   .contact-form {
     width: 100%;
   }
-  /* .plan-box {
-    width: 100%;
-    margin: 0 auto 20px auto;
-  } */
+
   .section-header h2 {
     font-size: 140%;
   }
+
   .footer-nav li,
   .social-links li {
     font-size: 100%;
     margin-right: 10px;
   }
+
   .footer-nav li ion-icon,
   .social-links li ion-icon {
     font-size: 140%;
   }
-  footer .row p {
+
+  footer.row p {
     font-size: 120%;
   }
+
   .section-features ion-icon {
     font-size: 360%;
     /* margin-bottom: 10px; */
   }
+
   .section-cities .col {
-        width: 78%;
-        margin: 1%;
-        /* width: 23%;  */
-        float: left
-    }
-     .testimonial-col {
+    width: 78%;
+    margin: 1%;
+    /* width: 23%;  */
+    float: left
+  }
+
+  .testimonial-col {
     width: 100%;
-    margin: 1%;  /* Optional spacing */
+    margin: 1%;
+    /* Optional spacing */
     float: left;
-    box-sizing: border-box;}
-    .steps-box {
+    box-sizing: border-box;
+  }
+
+  .steps-box {
     width: 100%;
     float: none;
   }
-  
+
+  .section-plans .row {
+    padding: 0 0;
+}
   .section-plans .row:nth-of-type(2) {
   margin-left: 10px; /* shift all 3 plan boxes to the right */
-  }
-  
-   .plan-box {
+}
+  .plan-box {
     width: 90%;
-    margin: 0 auto 20px auto;
+    margin: 0 auto px auto;
     box-sizing: border-box;
   }
-  
+
+
   .plan-col {
     margin-left: 0;
     padding-left: 0;
@@ -326,30 +396,31 @@
     /* padding: 20px; */
     /* margin-bottom: 20px; */
     flex: 1 1 100%;
-    width: 100%;
+    /* width: 100%; */
+    
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
   }
 
+  
+  /* Section steps */
+ 
+.steps-box {
 
-  }
-
-  /* Clear floats after every 2 cols */
-  /* .section-testimonials .row::after {
-    content: "";
-    display: table;
-    clear: both;
-  } */
-
-
-/* Consistent icon scaling across breakpoints */
-/* @media only screen and (max-width: 1200px) {
-  .section-features ion-icon { font-size: 220%; }
+    max-width: 95%;  /* Adjust width to avoid too much space */
+    padding: 0;      /* Remove extra padding if needed */
 }
-@media only screen and (max-width: 1023px) {
-  .section-features ion-icon { font-size: 180%; }
+
+.app-screen{
+   /* width: 50%; */
+   /* box-shadow: 10px 10px 5px #aaaaaa; */
+   margin-right: 25px;
+
+
+/* section steps  */
 }
-@media only screen and (max-width: 768px) {
-  .section-features ion-icon { font-size: 160%; }
+  
 }
-@media only screen and (max-width: 480px) {
-  .section-features ion-icon { font-size: 150%; }
-} */
