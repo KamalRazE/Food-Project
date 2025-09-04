@@ -146,6 +146,7 @@ input[type=submit]{
    display: inline-block;
    margin-left: 40px;
    color: #fff;
+   text-shadow: 0 0 5px #e67e22, 0 0 10px #e67e22;
  }
 
  .main-nav li a:link,
