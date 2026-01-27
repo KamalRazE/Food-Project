@@ -283,6 +283,7 @@
   }
 
   .plan-col {
+/*      */
     /* border: 1px solid #ccc; all sides */
     /* OR if you want only right border */
     border-right: 1px solid #ccc;
